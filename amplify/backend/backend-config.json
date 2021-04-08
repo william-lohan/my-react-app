@@ -1,1 +1,10 @@
-{}
+{
+  "auth": {
+    "myreactapp69cb5b86": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}

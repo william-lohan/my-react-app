@@ -39,6 +39,13 @@
 			],
 			"label": "npm: start",
 			"detail": "react-scripts start"
+		},
+		{
+			"type": "npm",
+			"script": "publish",
+			"problemMatcher": [],
+			"label": "npm: publish",
+			"detail": "amplify publish"
 		}
 	]
 }

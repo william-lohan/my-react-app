@@ -12,7 +12,8 @@
       "enablexcodeintegration": true
     },
     "auth": {
-      "enablecaseinsensitivity": true
+      "enablecaseinsensitivity": true,
+      "useinclusiveterminology": true
     },
     "codegen": {
       "useappsyncmodelgenplugin": true,

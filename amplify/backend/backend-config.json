@@ -1,6 +1,24 @@
 {
+  "api": {
+    "mayapi": {
+      "service": "AppSync",
+      "providerPlugin": "awscloudformation",
+      "output": {
+        "authConfig": {
+          "defaultAuthentication": {
+            "authenticationType": "API_KEY",
+            "apiKeyConfig": {
+              "apiKeyExpirationDays": 7,
+              "description": "demo"
+            }
+          },
+          "additionalAuthenticationProviders": []
+        }
+      }
+    }
+  },
   "auth": {
-    "myreactapp69cb5b86": {
+    "myreactapp133ceeba": {
       "service": "Cognito",
       "providerPlugin": "awscloudformation",
       "dependsOn": [],
